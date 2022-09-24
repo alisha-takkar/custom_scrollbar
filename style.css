@@ -1,0 +1,33 @@
+
+:root{
+    --white : rgb(245, 245, 245);
+    --gray : rgba(0, 0, 0, 0.3); 
+}
+
+.scrollbar{
+    margin-left: 30px;
+    float: left;
+    height: 100;
+    width: 100;
+    overflow-y: scroll;
+}
+
+.overflow{
+    min-height: 450px;
+}
+
+#style-1::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px var(--gray);
+    background-color: var(--white);
+}
+
+#style-1::-webkit-scrollbar{
+    width: 1.2rem;
+    background-color: var(--white);
+}
+
+#style-1::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px var(--gray);
+    background-color: rgb(24, 188, 209);
+}
